@@ -6,37 +6,38 @@ Founded by the original developers of Apache Kafka, Confluent delivers the most 
 
 **Advantages of Apache Kafka**
 
-    1.Low Latency: Apache Kafka offers low latency value, i.e., upto 10 milliseconds. It is because it decouples the message which lets the consumer to consume that message anytime.
+  1.Low Latency: Apache Kafka offers low latency value, i.e., upto 10 milliseconds. It is because it decouples the message which lets the consumer to consume that message anytime.
     
-    2.High Throughput: Due to low latency, Kafka is able to handle more number of messages of high volume and high velocity. Kafka can support thousands of messages in a second. Many companies such as Uber use Kafka to load a high volume of data.
+   2.High Throughput: Due to low latency, Kafka is able to handle more number of messages of high volume and high velocity. Kafka can support thousands of messages in a second. Many companies such as Uber use Kafka to load a high volume of data.
     
-    3.Fault tolerance: Kafka has an essential feature to provide resistant to node/machine failure within the cluster.
+   3.Fault tolerance: Kafka has an essential feature to provide resistant to node/machine failure within the cluster.
     Durability: Kafka offers the replication feature, which makes data or messages to persist more on the cluster over a disk. This makes it durable.
     
-    4.Reduces the need for multiple integrations: All the data that a producer writes go through Kafka. Therefore, we just need to create one integration with Kafka, which automatically integrates us with each producing and consuming system.
+   4.Reduces the need for multiple integrations: All the data that a producer writes go through Kafka. Therefore, we just need to create one integration with Kafka, which automatically integrates us with each producing and consuming system.
     
-    5. Easily accessible: As all our data gets stored in Kafka, it becomes easily accessible to anyone.
+   5. Easily accessible: As all our data gets stored in Kafka, it becomes easily accessible to anyone.
     
-    6.Distributed System: Apache Kafka contains a distributed architecture which makes it scalable. Partitioning and replication are the two capabilities under the distributed system.
+   6.Distributed System: Apache Kafka contains a distributed architecture which makes it scalable. Partitioning and replication are the two capabilities under the distributed system.
     
-    7.Real-Time handling: Apache Kafka is able to handle real-time data pipeline. Building a real-time data pipeline includes processors, analytics, storage, etc.
+   7.Real-Time handling: Apache Kafka is able to handle real-time data pipeline. Building a real-time data pipeline includes processors, analytics, storage, etc.
     
-    8.Batch approach: Kafka uses batch-like use cases. It can also work like an ETL tool because of its data persistence capability.
+   8.Batch approach: Kafka uses batch-like use cases. It can also work like an ETL tool because of its data persistence capability.
     
-    9.Scalability: The quality of Kafka to handle large amount of messages simultaneously make it a scalable software product.
+   9.Scalability: The quality of Kafka to handle large amount of messages simultaneously make it a scalable software product.
 
 **Disadvantages Of Apache Kafka**
 
-    1.Do not have complete set of monitoring tools: Apache Kafka does not contain a complete set of monitoring as well as managing tools. Thus, new startups or enterprises fear to work with Kafka.
+   1.Do not have complete set of monitoring tools: Apache Kafka does not contain a complete set of monitoring as well as managing tools. Thus, new startups or enterprises fear to work with Kafka.
     
-    2.Message tweaking issues: The Kafka broker uses system calls to deliver messages to the consumer. In case, the message needs some tweaking, the performance of Kafka gets significantly reduced. So, it works well if the message does not need to change.
-    3.Do not support wildcard topic selection: Apache Kafka does not support wildcard topic selection. Instead, it matches only the exact topic name. It is because selecting wildcard topics make it incapable to address certain use cases.
+   2.Message tweaking issues: The Kafka broker uses system calls to deliver messages to the consumer. In case, the message needs some tweaking, the performance of Kafka gets significantly reduced. So, it works well if the message does not need to change.
+   
+   3.Do not support wildcard topic selection: Apache Kafka does not support wildcard topic selection. Instead, it matches only the exact topic name. It is because selecting wildcard topics make it incapable to address certain use cases.
     
-    4.Reduces Performance: Brokers and consumers reduce the performance of Kafka by compressing and decompressing the data flow. This not only affects its performance but also affects its throughput.
+   4.Reduces Performance: Brokers and consumers reduce the performance of Kafka by compressing and decompressing the data flow. This not only affects its performance but also affects its throughput.
     
-    5.Clumsy Behaviour: Apache Kafka most often behaves a bit clumsy when the number of queues increases in the Kafka Cluster.
+   5.Clumsy Behaviour: Apache Kafka most often behaves a bit clumsy when the number of queues increases in the Kafka Cluster.
     
-    6.Lack some message paradigms: Certain message paradigms such as point-to-point queues, request/reply, etc. are missing in Kafka for some use cases.
+   6.Lack some message paradigms: Certain message paradigms such as point-to-point queues, request/reply, etc. are missing in Kafka for some use cases.
     
 **UseCases of Apache Kafka**
 
