@@ -42,35 +42,37 @@ Founded by the original developers of Apache Kafka, Confluent delivers the most 
 
   a. Kafka Messaging
   
-  
-    As we know, Kafka is a distributed publish-subscribe messaging system. So, for a more traditional message broker, Kafka works well as a replacement. For a variety of reasons, we use Message brokers. For example, to decouple processing from data producers, to buffer unprocessed messages and many more.
-    However, Kafka has better throughput, built-in partitioning, replication, and fault-tolerance, in comparison to most other messaging systems. That makes it a good solution for large-scale message processing applications.
+  <p> As we know, Kafka is a distributed publish-subscribe messaging system. So, for a more traditional message broker, Kafka works well as a replacement. For a variety of reasons, we use Message brokers. For example, to decouple processing from data producers, to buffer unprocessed messages and many more.
+    However, Kafka has better throughput, built-in partitioning, replication, and fault-tolerance, in comparison to most other messaging systems. That makes it a good solution for large-scale message processing applications.</p>
 
 b. Website Activity Tracking
 
-
-    To be able to rebuild a user activity tracking pipeline as a set of real-time publish-subscribe feeds, it is the original Use Case for Kafka. That implies site activity is published to central topics with one topic per activity type. Here, site activity refers to page views, searches, or other actions users may take.
+<p>
+    To be able to rebuild a user activity tracking pipeline as a set of real-time publish-subscribe feeds, it is the original Use Case for Kafka. That implies site activity is published to central topics with one topic per activity type. Here, site activity refers to page views, searches, or other actions users may take.</p>
 
 c. Kafka Metrics
 
-    For operational monitoring data, Kafka is often used. In addition, to produce centralized feeds of operational data, it includes aggregating statistics from distributed applications.
+<p> For operational monitoring data, Kafka is often used. In addition, to produce centralized feeds of operational data, it includes aggregating statistics from distributed applications.</p>
 
 d. Kafka Log Aggregation
 
-    In order to collect logs from multiple services and make them available in a standard format to multiple consumers, we can use Kafka across an organization.
+<p>
+    In order to collect logs from multiple services and make them available in a standard format to multiple consumers, we can use Kafka across an organization.</p.
 
 e. Stream Processing
 
-    However, there are some popular frameworks which read data from a topic, processes it, and write processed data to a new topic, where it becomes available for users and applications, such as Storm and Spark Streaming. In the context of stream processing, Kafka’s strong durability is also very useful.
+<p>
+    However, there are some popular frameworks which read data from a topic, processes it, and write processed data to a new topic, where it becomes available for users and applications, such as Storm and Spark Streaming. In the context of stream processing, Kafka’s strong durability is also very useful.</p>
 
 f. Kafka Event Sourcing
 
-    Basically, when state changes are logged as a time-ordered sequence of records, then event sourcing is a style of application design. Also, we can say Kafka is an excellent backend for an application built in this style. Because it supports for a very large stored log.
+<p>
+    Basically, when state changes are logged as a time-ordered sequence of records, then event sourcing is a style of application design. Also, we can say Kafka is an excellent backend for an application built in this style. Because it supports for a very large stored log.</p>
 
 g. Commit Log
 
-    While it comes to a distributed system, Kafka can serve as a kind of external commit-log for it. Generally, it replicates data between nodes. Also, acts as a re-syncing mechanism for failed nodes to restore their data. The feature of log compaction in Kafka helps to support this usage. However, Kafka is the same as Apache BookKeeper project, in this usage.
-    
+<p> While it comes to a distributed system, Kafka can serve as a kind of external commit-log for it. Generally, it replicates data between nodes. Also, acts as a re-syncing mechanism for failed nodes to restore their data. The feature of log compaction in Kafka helps to support this usage. However, Kafka is the same as Apache BookKeeper project, in this usage.
+    </p>
 **Install ApacheKafka On Ubantu**
 
     sudo apt update<br>
