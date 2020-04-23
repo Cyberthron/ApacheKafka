@@ -73,6 +73,7 @@ g. Commit Log
 
 <p> While it comes to a distributed system, Kafka can serve as a kind of external commit-log for it. Generally, it replicates data between nodes. Also, acts as a re-syncing mechanism for failed nodes to restore their data. The feature of log compaction in Kafka helps to support this usage. However, Kafka is the same as Apache BookKeeper project, in this usage.
     </p>
+    
 **Install ApacheKafka On Ubantu**
 
     sudo apt update<br>
